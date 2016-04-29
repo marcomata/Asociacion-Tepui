@@ -1,0 +1,33 @@
+body {
+  font-family: Fira Sans, sans-serif;
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  text-decoration: none; }
+
+.start {
+  opacity: 0;
+  transition: all 2s ease-in-out; }
+
+.start-screen {
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-color: white;
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: 50%; }
+
+ul.start-nav {
+  list-style: none;
+  float: initial;
+  margin: 0 auto;
+  padding: 15vh 0px 0px 0px;
+  text-align: center;
+  font-size: 25px; }
+  ul.start-nav li {
+    display: inline-block;
+    padding-left: 40px; }
+    ul.start-nav li a {
+      color: black; }
